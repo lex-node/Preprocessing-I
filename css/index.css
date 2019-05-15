@@ -218,3 +218,8 @@ p {
   flex-direction: column;
   align-items: flex-start;
 }
+.box-holder .green-box hr {
+  width: 80%;
+  color: #F706CF;
+  align-self: center;
+}
