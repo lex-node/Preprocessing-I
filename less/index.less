@@ -4,29 +4,7 @@
    License: none (public domain)
 */
 
-//variables
-@black: #111111;
-@terminal-green: #00FF00;
-@hot-pink: #F706CF;
 
-//mix-ins
-.column-holder(){
-  padding: 20px 3%;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.row-holder() {
-  padding: 20px 3%;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: stretch;
-}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -83,12 +61,35 @@ table {
   box-sizing: border-box;
 }
 
+//variables
+@black: #111111;
+@terminal-green: #00FF00;
+@hot-pink: #F706CF;
+
+//mix-ins
+.column-holder(){
+  padding: 20px 3%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.row-holder() {
+  padding: 20px 3%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
 html, body {
   height: 100%;
   width: 100%;
   font-size: 62.5%;
   background: @black;
-  font: @terminal-green;
 }
 
 h1 {
@@ -125,8 +126,6 @@ header {
     padding: 0px .5%;
   }
 }
-
-
 
 
 p {
