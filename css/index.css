@@ -133,13 +133,40 @@ table {
 html,
 body {
   height: 100%;
-  background: #001f3f;
+  width: 100%;
+  font-size: 62.5%;
+  background: #111111;
+  font: #00FF00;
 }
-.top-bar {
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 24px;
+}
+header {
+  width: 100%
+  margin: 20px 0%;
+  padding: 20px 0%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+header nav {
   width: 80%;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0%;
+  border-bottom: 1px solid #00FF00;
 }
-.top-bar nav {
-  justify-content: space-between;
+header a {
+  margin: 0px 0.5%;
+  padding: 0px 0.5%;
+}
+p {
+  line-height: 1.25;
+  margin: 20px 0;
+  font-size: 1.8rem;
 }
