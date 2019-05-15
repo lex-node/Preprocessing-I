@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/
+/* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -133,5 +133,13 @@ table {
 html,
 body {
   height: 100%;
-  background: red;
+  background: #001f3f;
+}
+.top-bar {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.top-bar nav {
+  justify-content: space-between;
 }
