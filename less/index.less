@@ -71,8 +71,14 @@ html, body {
   font: @terminal-green;
 }
 
-h1, h2, h3, h4, h5 {
-  font-size: 24px;
+h1 {
+  font-size: 35px;
+  margin: 10px 0%;
+}
+
+h2, h3, h4, h5 {
+  font-size: 20px;
+  margin: 7px 0%
 }
 
 
@@ -84,8 +90,6 @@ header {
   display: flex;
   justify-content: center;
 
-
-
   nav {
     width: 80%;
     display: flex;
@@ -93,7 +97,6 @@ header {
     align-items: center;
     padding: 20px 0%;
     border-bottom: 1px solid @terminal-green;
-
   }
 
   a {
@@ -103,8 +106,49 @@ header {
 }
 
 //header
+
+
 p {
   line-height: 1.25;
   margin: 20px 0;
   font-size: 1.8rem;
 }
+
+.box-holder {
+  width: 100%
+  margin: 20px 0%;
+  padding: 20px 0%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+
+
+  .pink-box {
+    background: #F706CF;
+    padding: 20px 3%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+  hr{
+    width: 60%;
+    color: @terminal-green;
+    align-self: center;
+  }
+
+    img{
+      width: 20%;
+      height: auto;
+    }
+
+    button{
+      align-self: center;
+    }
+
+  }
+}
+
+
+
